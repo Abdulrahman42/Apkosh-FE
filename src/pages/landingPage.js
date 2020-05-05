@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import Header from 'elements/Header'
+import Hero from 'elements/Hero'
 
-export default class landingPage extends Component {
+import landingPage from 'json/landingPage.json'
+
+export default class LandingPage extends Component {
     render() {
         return (
-            <View>
-                <Text> textInComponent </Text>
-            </View>
+            <>
+            <Header {...this.props}></Header>
+            <Hero data={landingPage.hero}/>
+            </>
         )
     }
 }
