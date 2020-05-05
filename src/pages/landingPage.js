@@ -5,7 +5,7 @@ export default class landingPage extends Component {
     render() {
         return (
             <View>
-                <Text> textInComponent </Text>
+                <Text> textInComponent ok</Text>
             </View>
         )
     }
