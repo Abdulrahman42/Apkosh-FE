@@ -1,16 +1,26 @@
-import React, { Component } from 'react'
-import Header from 'elements/Header'
-import Hero from 'elements/Hero'
-
-import landingPage from 'json/landingPage.json'
+import React, { Component } from "react";
+import Header from "elements/Header";
+import Hero from "elements/Hero";
+import MostPicked from "elements/MostPicked";
+import Categories from 'elements/Categories';
+import landingPage from "json/landingPage.json";
 
 export default class LandingPage extends Component {
-    render() {
-        return (
-            <>
-            <Header {...this.props}></Header>
-            <Hero data={landingPage.hero}/>
-            </>
-        )
-    }
+  constructor(props) {
+    super(props);
+    this.refMostPicked = React.createRef();
+  }
+  render() {
+    return (
+      <>
+        <Header {...this.props}></Header>
+        <Hero refMostPicked={this.refMostPicked} data={landingPage.hero} />
+        <MostPicked
+          refMostPicked={this.refMostPicked}
+          data={landingPage.mostPicked}
+        />
+        <Categories data={landingPage.categories}/>
+      </>
+    );
+  }
 }

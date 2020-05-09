@@ -14,9 +14,10 @@
   vertical-align: middle;
   cursor: if($enable-pointer-cursor-for-buttons, pointer, null);
   user-select: none;
+  min-height: 50px;
   background-color: transparent;
   border: $btn-border-width solid transparent;
-  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, $btn-border-radius);
+  @include button-size($btn-padding-y, $btn-padding-x, $btn-font-size, $btn-line-height, 4px);
   @include transition($btn-transition);
 
   @include hover() {
@@ -44,6 +45,10 @@
     &:focus {
       @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
     }
+  }
+
+  &.btn-shadow {
+    box-shadow: 0 8px 10px rgba($primary, 0.3);
   }
 }
 
