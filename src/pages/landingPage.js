@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import Header from "elements/Header";
 import Hero from "elements/Hero";
 import MostPicked from "elements/MostPicked";
-import Categories from 'elements/Categories';
+import Categories from "elements/Categories";
+import Testimoni from "elements/Testimoni";
 import landingPage from "json/landingPage.json";
 
 export default class LandingPage extends Component {
@@ -19,7 +20,8 @@ export default class LandingPage extends Component {
           refMostPicked={this.refMostPicked}
           data={landingPage.mostPicked}
         />
-        <Categories data={landingPage.categories}/>
+        <Categories data={landingPage.categories} />
+        <Testimoni data={landingPage.testimonial} />
       </>
     );
   }
