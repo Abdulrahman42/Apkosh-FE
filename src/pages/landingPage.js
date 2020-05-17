@@ -4,6 +4,7 @@ import Hero from "elements/Hero";
 import MostPicked from "elements/MostPicked";
 import Categories from "elements/Categories";
 import Testimoni from "elements/Testimoni";
+import Footer from "elements/Footer";
 import landingPage from "json/landingPage.json";
 
 export default class LandingPage extends Component {
@@ -22,6 +23,7 @@ export default class LandingPage extends Component {
         />
         <Categories data={landingPage.categories} />
         <Testimoni data={landingPage.testimonial} />
+        <Footer />
       </>
     );
   }
