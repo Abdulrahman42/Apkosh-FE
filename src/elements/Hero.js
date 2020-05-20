@@ -7,7 +7,7 @@ import maps from "assets/icons/signs.svg";
 import Button from "components/Button";
 import CountUp from "react-countup";
 import Fade from "react-reveal/Fade";
-import formatNumber from "utils/formatNumber";
+// import formatNumber from "utils/formatNumber";
 
 export default function Hero(props) {
   function showMostPick() {

@@ -74,5 +74,13 @@
     &:not(.category) {
       grid-template-columns: repeat(8, 1fr);
     }
+    .item {
+      &.column-5 {
+        grid-column-end: span 4;
+      }
+      &.column-7 {
+        grid-column-end: span 8;
+      }
+    }
   }
 }

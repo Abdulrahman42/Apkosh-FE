@@ -11,7 +11,7 @@ import formatDate from "utils/formatDate";
 import iconCalender from "assets/icons/calendar.svg";
 
 export default function Date(props) {
-  const { value, placeHolder, name } = props;
+  const { value, placeholder, name } = props;
   const [isShowed, setIsShowed] = useState(false);
 
   const datePickerChange = (value) => {
@@ -61,7 +61,7 @@ export default function Date(props) {
           readOnly
           className="form-control"
           value={displayDate}
-          placeholder={placeHolder}
+          placeholder={placeholder}
           onClick={() => setIsShowed(!isShowed)}
         />
         {isShowed && (
@@ -83,6 +83,6 @@ export default function Date(props) {
 Date.prototype = {
   value: propTypes.object,
   onChange: propTypes.func,
-  placeHolder: propTypes.string,
+  placeholder: propTypes.string,
   outerClassName: propTypes.string,
 };
