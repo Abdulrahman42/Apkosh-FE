@@ -1,68 +1,99 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img src="https://res.cloudinary.com/abdulrahman42/image/upload/v1567519537/KEDAI_DW/ic_launcher_dwijpb.png" width="300"/><br>
+</h1>
 
-## Available Scripts
+## Important
 
-In the project directory, you can run:
+This project is still on very early development stage. If you want to use for production, use it with your own risk.
+<br>More feature Coming Really Soon.
 
-### `yarn start`
+## Aphosh
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Aphosh is modern website app to find Apartment house and hotel for yout holiday. we are ready to help find hotel for your weekend with your badget.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<!-- ## Demo App -->
 
-### `yarn test`
+<!-- [![Kedai DW Video](http://i3.ytimg.com/vi/bd4LKTMlx9Y/maxresdefault.jpg)](https://youtu.be/krqD0ENRO-E) -->
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `yarn build`
+<p float="left">
+  <img src="https://res.cloudinary.com/abdulrahman42/image/upload/v1590167072/Aphosh/1_muibud.jpg" width="200" height="350" alt="Choose table number"/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ <img src="https://res.cloudinary.com/abdulrahman42/image/upload/v1590167202/Aphosh/2_hj13x4.jpg" width="200" height="350" alt="Choose menu"/>
+ 
+ <img src="https://res.cloudinary.com/abdulrahman42/image/upload/v1590167307/Aphosh/3_foofck.jpg" width="200" height="350" alt="order"/>
+ 
+ <img src="https://res.cloudinary.com/abdulrahman42/image/upload/v1590167308/Aphosh/4_akshgf.jpg" width="200" height="350" alt="bill"/>
+ 
+  <!-- <img src="https://res.cloudinary.com/abdulrahman42/image/upload/v1568511164/KEDAI_DW/Screenshot_2019-09-14-20-31-19_hiz7zs.png" width="200" height="350" alt="done"/> -->
+  
+</p>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Choose your destination
+- Find hotel
+- Upload your payment
 
-### `yarn eject`
+## Why Aphosh?
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Out of the box app of the year!
+- It's React Native, so it support android & iOS by default!
+- Simple Code, so you can easily contribute on it.
+- Express is one of the most starred javascript framework, and it is very easy to use
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- MERN stack
+- Mongo Express React Node
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Prerequisites
 
-## Learn More
+- Make sure You had been install NodeJs in your system https://nodejs.org/
+- Then install React Js https://reactjs.org/docs/getting-started.html
+- Don’t forget Express Js as the backend https://expressjs.com/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation & Configuration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Follow these step to install
 
-### Code Splitting
+**Frontend:**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+$ https://github.com/Abdulrahman42/Kedai.git
+$ cd kedai
+$ use branch redux
+$ npm install
+$ react-native run-ios #for ios
+$ react-native run-android #for android
+```
 
-### Analyzing the Bundle Size
+**Back-end:**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
+$ https://github.com/Abdulrahman42/backend-kedai.git
+$ backend-kedai
+$ express npm install
+$ express #run your express on http://localhost:5000
+```
 
-### Making a Progressive Web App
+## Support Me :)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Star this repository :star:
+- Hire Me https://www.linkedin.com/in/maman-rahman/
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- WA/TELEGRAM: +62 85 333 654 729
+- email: mamanrahman20141996@gmail.com
 
-### Deployment
+<!-- ## Presentation Slide -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<!-- ## https://drive.google.com/file/d/1lYRSFJGEQBTIDQBxgJjaEIn0CThtomGy/view?usp=sharing -->
 
-### `yarn build` fails to minify
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+MIT License
+
+See [LICENSE](LICENSE)

@@ -26,7 +26,7 @@ export default class DetailsPage extends Component {
         <FeaturedImage data={ItemDetail.imageUrls} />
         <section className="container">
           <div className="row">
-            <div className="col-7 pr-5">
+            <div className="col-7 pr-5 detailPage">
               <PageDetailDescription data={ItemDetail} />
             </div>
             <div className="col-5">
